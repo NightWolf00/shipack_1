@@ -1,6 +1,6 @@
 <?php
-  namespace TestComp;
-  class TestComp {
+  namespace Test;
+  class Test {
     public function getRandomQuotes() {
       $quotes = file_get_contents( __DIR__ . '/../inc/quotes.json' );
       $quotes = json_decode( $quotes, true );
